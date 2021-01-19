@@ -66,7 +66,9 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8000',
     'http://localhost:8081',
-    'http://localhost:8082'
+    'http://localhost:8082',
+    'http://192.168.1.91:8082',
+    'http://192.168.1.91:8081',
 )
 ROOT_URLCONF = 'superMarket.urls'
 
