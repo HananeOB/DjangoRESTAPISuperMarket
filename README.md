@@ -6,12 +6,11 @@ Firstly, clone this repository to the current directory:
 ```
 git clone https://github.com/HananeOB/DjangoRESTAPISuperMarket .
 ```
-Next, set up a virtual environment and activate it:
-Then, install required packages:
+Next, set up a virtual environment and activate it, then, install required packages:
 ````
-pip install -r requirements.txt
+pip install -r requirement.txt
 ````
-Configure your database then perform migration:
+Configure your database then perform migrations:
 ```
 python manage.py makemigrations 
 ```
@@ -22,4 +21,4 @@ The setup is complete. Run a local server with
 ```
 python manage.py runserver 
 ```
-The blog should be available at localhost:8000.
+The server should be listenning on localhost:8000.
