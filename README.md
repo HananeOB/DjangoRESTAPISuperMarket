@@ -1,6 +1,8 @@
 # Supermarket management App (backend)
 ## App description :
-This is the backend of a supermarket management App build using Django 
+* This is the backend of a supermarket management App build using Django 
+*  This image describes the flow of data in the enture app (front and back end):  
+![alt text](./data.png)
 ## Project setup
 Firstly, clone this repository to the current directory:
 ```
